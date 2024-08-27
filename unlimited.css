@@ -1,0 +1,165 @@
+* {
+	box-sizing: border-box;
+}
+
+#wrapper {
+	background-color: #000000;
+	background-image: linear-gradient(to bottom, #0000FF, #FF0000);
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	min-width: 960px;
+	max-width: 2048px;
+	box-shadow: 3px 3px 3px #333333;
+	border: 1px solid #000033
+}
+
+body {
+	background-color: #CCCCCC;
+	color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+	background-color: #000000;
+	color: #FFFF00;
+	line-height: 700%;
+	text-indent: 1em;
+	text-align: left;
+	padding-top: 30px;
+	padding-left: 1em;
+}
+
+header a {
+	text-decoration: none;
+}
+
+header a:link {
+	color: #FFFFFF;
+}
+
+header a:visited {
+	color: #FFFFFF;
+}
+
+header a:hover {
+	color: #A52A2A;
+}
+
+h1 {
+	margin-bottom: 0;
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 3em;
+	letter-spacing: 0.25em;
+	margin-top: 0;
+}
+
+nav {
+	font-weight: bold;
+	font-size: 120%;
+	padding: 1.5em;
+	float: left;
+	width: 160px;
+}
+
+nav li {
+	display: inline;
+}
+
+nav a {
+	text-decoration: none;
+	display: block;
+	padding-right: 10px;
+	transition: background-color 2s linear;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding-left: 0;
+	font-size: 1.2em;
+}
+
+nav a:link {
+	color: #FFFF00;
+}
+
+nav a:visited {
+	color: #00FFFF;
+}
+
+nav a:hover {
+	background-color: #CCCCCC;
+	color: #A52A2A;
+}
+
+main {
+	background-color: #000000;
+	margin-left: 190px;
+	padding: 1px 20px 20px 30px;
+	display: block;
+	overflow: auto;
+}
+
+section {
+	float: left;
+	width: 33%;
+	padding-right: 2em;
+	padding-left: 2em;
+}
+
+h2 {
+	font-family: Georgia, "Times New Roman", serif;
+	color: #FFFF00;
+	text-shadow: 1px 1px 1px #CCCCCC;
+}
+
+table {
+	margin: auto;
+	width: 600px;
+	border: 5px solid #00FFFF;
+	border-collapse: collapse;
+	border-width: thick 1px;
+}
+
+td,
+th {
+	border: 1px solid #00FFFF;
+	padding: 5px;
+	font-family: Arial, sans-serif;
+	color: #FFFF00;
+	text-align: center;
+}
+
+label {
+	float: left;
+	display: block;
+	text-align: right;
+	width: 140px;
+	padding-right: 5px;
+}
+
+input,
+textarea {
+	display: block;
+	margin-bottom: 20px;
+}
+
+input[type="submit"] {
+	margin-left: 140px;
+}
+
+textarea {
+	display: block;
+	margin-bottom: 20px;
+}
+
+footer {
+	font-style: italic;
+	text-align: center;
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+#special {
+	clear: both;
+}
